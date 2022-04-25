@@ -1,0 +1,6 @@
+framework module Pods_FinalOneLab {
+  umbrella header "Pods-FinalOneLab-umbrella.h"
+
+  export *
+  module * { export * }
+}
