@@ -61,14 +61,46 @@
 		C08DE1732816C05F00EBB5DD /* FinalOneLab */ = {
 			isa = PBXGroup;
 			children = (
-				C08DE1742816C05F00EBB5DD /* AppDelegate.swift */,
-				C08DE1762816C05F00EBB5DD /* SceneDelegate.swift */,
-				C08DE1782816C05F00EBB5DD /* ViewController.swift */,
-				C08DE17D2816C06100EBB5DD /* Assets.xcassets */,
-				C08DE17F2816C06100EBB5DD /* LaunchScreen.storyboard */,
+				C08DE18B2816C66D00EBB5DD /* Resources */,
+				C08DE18A2816C65F00EBB5DD /* Business Layer */,
+				C08DE1892816C65500EBB5DD /* Presentation Layer */,
+				C08DE1882816C64600EBB5DD /* Application Layer */,
 				C08DE1822816C06100EBB5DD /* Info.plist */,
 			);
 			path = FinalOneLab;
+			sourceTree = "<group>";
+		};
+		C08DE1882816C64600EBB5DD /* Application Layer */ = {
+			isa = PBXGroup;
+			children = (
+				C08DE1742816C05F00EBB5DD /* AppDelegate.swift */,
+				C08DE1762816C05F00EBB5DD /* SceneDelegate.swift */,
+			);
+			path = "Application Layer";
+			sourceTree = "<group>";
+		};
+		C08DE1892816C65500EBB5DD /* Presentation Layer */ = {
+			isa = PBXGroup;
+			children = (
+				C08DE1782816C05F00EBB5DD /* ViewController.swift */,
+			);
+			path = "Presentation Layer";
+			sourceTree = "<group>";
+		};
+		C08DE18A2816C65F00EBB5DD /* Business Layer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Business Layer";
+			sourceTree = "<group>";
+		};
+		C08DE18B2816C66D00EBB5DD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C08DE17D2816C06100EBB5DD /* Assets.xcassets */,
+				C08DE17F2816C06100EBB5DD /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		F4CD6A2CC07FE10BF0C47E5E /* Frameworks */ = {
